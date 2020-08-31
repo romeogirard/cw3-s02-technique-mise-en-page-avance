@@ -10,18 +10,135 @@
 /* Mettre la ligne universelle pour le box-sizing */
 
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
 
 /*---------------------- Elements ----------------------*/
 
 
+body {
+    font-family: Cardo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
 
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    font-family: Cardo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h1 {
+    font-family: Bungee Shade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: white;
+}
+
+h2 {
+    font-family: Bungee Shade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+}
 
 
 /*---------------------- Components ----------------------*/
 
 
+.conteneur {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/*HEADER*/
+.header-principal {
+    background-color: #000000;
+    height: 73px;
+    display: flex;
+    align-items: center;
+}
+
+.header-principal .conteneur {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
+/*HERO*/
+.hero {
+    height: 80vh;
+    background-color: black;
+    position: relative;
+}
+
+.hero p {
+    font-family: Cardo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+
+.hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.hero .content {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-Gradient(36deg, rgba(167, 2, 154, 0.7) 0%, rgba(167, 2, 154, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.interet{
+    background-image: src("images/bg-interet.jpg");
+}
 
 
 /*---------------------- Utilities ----------------------*/

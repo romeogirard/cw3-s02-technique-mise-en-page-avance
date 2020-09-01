@@ -39,7 +39,6 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
-    text-align: center;
     margin: 0;
 }
 
@@ -85,16 +84,13 @@ h2 {
 .header-principal {
     background-color: var(--black);
     height: 73px;
-    display: flex;
-    align-items: center;
 }
 
 .header-principal .conteneur {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    padding: 12.5px;
 }
-
 
 /*HERO*/
 .hero {
@@ -194,7 +190,6 @@ h2 {
 }
 
 .interet .conteneur .cartes .carte img {
-    padding: 20px;
     max-height: 151px;
     width: 151px;
     display: flex;
@@ -263,6 +258,22 @@ h2 {
     font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+}
+.footer-principal a{
+    font-family: Cardo, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white);
+}
+.footer-principal a:hover{
+    font-family: Cardo, sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 24px;
     color: var(--white);

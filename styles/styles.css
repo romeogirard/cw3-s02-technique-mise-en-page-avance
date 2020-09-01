@@ -8,8 +8,8 @@
     --font-primaire: Cardo, serif;
     --font-secondaire: "Bungee Shade", cursive;
     --white: #fff;
-    --black: #000;
-    --degrade-principal: linear-Gradient(36deg, rgba(167,2,154,0.7) 0%, rgba(167,2,154,0) 100%);
+    --black: #000000;
+    --degrade-principal: linear-Gradient(36deg, rgba(167, 2, 154, 0.7) 0%, rgba(167, 2, 154, 0) 100%);
 }
 
 /*---------------------- Generic ----------------------*/
@@ -151,20 +151,21 @@ h2 {
     background-attachment: fixed;
 }
 
-.interet h3{
+.interet h3 {
     padding-top: 66px;
     padding-bottom: 18px;
-    font-family: Cardo;
+    font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 54px;
     text-align: center;
     text-transform: uppercase;
-    colo: var(--black);
+    color: var(--black);
 }
-.interet p{
-    font-family: Cardo;
+
+.interet p {
+    font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -172,31 +173,35 @@ h2 {
     text-align: center;
     color: var(--black)
 }
-.interet .conteneur .cartes{
+
+.interet .conteneur .cartes {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 66px;
 }
-.interet .conteneur .cartes .carte{
+
+.interet .conteneur .cartes .carte {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30%;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     padding: 40px 20px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
-.interet .conteneur .cartes .carte img{
+
+.interet .conteneur .cartes .carte img {
     padding: 20px;
     max-height: 151px;
     width: 151px;
     display: flex;
 }
-.interet .conteneur .cartes .carte h4{
-    font-family: Cardo;
+
+.interet .conteneur .cartes .carte h4 {
+    font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -206,8 +211,8 @@ h2 {
     color: var(--black);
 }
 
-    /*CITATION*/
-.citation{
+/*CITATION*/
+.citation {
     height: 404px;
     background-image: url("../images/bg-citation.jpg");
     background-repeat: no-repeat;
@@ -216,14 +221,16 @@ h2 {
     display: flex;
 
 }
-.citation .conteneur{
+
+.citation .conteneur {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-.citation h3{
-    font-family: Cardo;
+
+.citation h3 {
+    font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -233,8 +240,9 @@ h2 {
     margin: 0;
     text-align: left;
 }
-.citation p{
-    font-family: Cardo;
+
+.citation p {
+    font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -243,20 +251,22 @@ h2 {
 }
 
 /*FOOTER*/
-.footer-principal{
+.footer-principal {
     background-color: var(--black);
     height: 144px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-principal p{
-    font-family: Cardo;
+
+.footer-principal p {
+    font-family: Cardo, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: var(--white);
 }
+
 /*---------------------- Utilities ----------------------*/
 
